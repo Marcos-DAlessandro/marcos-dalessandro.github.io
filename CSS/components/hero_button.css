@@ -1,0 +1,26 @@
+.hero-button-container {
+    width: 627px; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px; 
+    margin-left: 90px;
+}
+
+.hero-button {
+    background-color: #E63946;
+    color: white;
+    font-size: 18px;
+    font-family: "Press Start 2P", cursive;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 5px 5px 0 #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-button:hover {
+    background-color: #B02736;
+    box-shadow: 3px 3px 0 #000;
+    transform: translate(2px, 2px);
+}
