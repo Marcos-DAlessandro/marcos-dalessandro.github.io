@@ -53,3 +53,62 @@ a:not(#button):hover::before {
     transform: scale(1.1);
     box-shadow: 6px 6px 0 #000;
 }
+
+.hero{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    background-color: #4CAF50;
+    width: 627px;
+    height: 184px;
+    margin-left: 91px;
+    margin-top: 116px;
+    text-align: center;
+    color: #FDFDFD;
+    box-shadow: 10px 10px 0 #000;
+}
+
+.company_name {
+    font-size: 40px;
+    font-family:"Press Start 2P";
+    color: #F78C37;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.hero-subtitle{
+    font-size: 20px;
+    font-family: "Fira code";
+    font-weight: 400;
+    color: #FDFDFD;
+    margin-top: 10px;
+}
+
+.hero-button-container {
+    width: 627px; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px; 
+    margin-left: 90px;
+}
+
+.hero-button {
+    background-color: #E74C3C;
+    color: white;
+    font-size: 18px;
+    font-family: "Press Start 2P", cursive;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 5px 5px 0 #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-button:hover {
+    background-color: #C0392B;
+    box-shadow: 3px 3px 0 #000;
+    transform: translate(2px, 2px);
+}
+
+
