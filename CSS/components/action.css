@@ -1,8 +1,5 @@
-nav {
-    text-align: right;
-}
 
-a {
+.action {
     display: inline-flex;
     align-items: center;
     color: #FDFDFD;
@@ -13,11 +10,11 @@ a {
     margin-right: 30px;
 }
 
-a:not(#button):hover{
+.action:not(.button):hover{
     color: #B02736;
 }
 
-a:not(#button)::before {
+.action:not(.button)::before {
     content: "";
     display: inline-block;
     background-color: #E63946;
@@ -25,6 +22,6 @@ a:not(#button)::before {
     width: 10px;
     margin-right: 7px;
 }
-a:not(#button):hover::before {
+.action:not(.button):hover::before {
     background-color: #B02736;
 }

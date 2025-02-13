@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Barracaria</title>
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,36 +12,44 @@
 
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="CSS/Index.css">
+
         <link rel="stylesheet" href="CSS/components/title.css">
         <link rel="stylesheet" href="CSS/components/subtitle.css">
         <link rel="stylesheet" href="CSS/components/header_button.css">
-        <link rel="stylesheet" href="CSS/components/hero_button.css">
+        <link rel="stylesheet" href="CSS/components/box_button.css">
         <link rel="stylesheet" href="CSS/components/header.css">
-        <link rel="stylesheet" href="CSS/components/nav.css">
-        <link rel="stylesheet" href="CSS/components/hero.css">
+        <link rel="stylesheet" href="CSS/components/action.css">
+        <link rel="stylesheet" href="CSS/components/box.css">
+        <link rel="stylesheet" href="CSS/components/banner.css">
 
     </head>
 
     <body>
-        <header>
+        <header class="header">
             <div class="logo">
-                <img src="assests/img/logo.png" alt="logo barracaria.">
+                <img src="assets/img/logo.png" alt="logo barracaria.">
             </div>
+
             <nav> 
-                <a href="" lang="en">Home</a>
-                <a href="">Sazonalidade</a>
-                <a href="">Sobre</a>
-                <a href="">Contatos</a>
-                <a id="button" href="">Loja Online</a>
+                <a class="action" href="" lang="en">Home</a>
+                <a class="action" href="">Sazonalidade</a>
+                <a class="action" href="">Sobre</a>
+                <a class="action" href="">Contatos</a>
+                <a class="button" href="">Loja Online</a>
             </nav>
         </header>
-        <section class="hero">
-            <h1 class="title"> Barracaria</h1>
-            <p class="subtitle" >Primeira feira feita de casa</p>
-        </section>
-        <div class="hero-button-container">
-            <button class="hero-button">Início da feira</button>
-        </div>
 
+        <section class="banner">
+            <div class="wrapper">
+                <div class="box">
+                    <h1 class="title"> Barracaria</h1>
+                    <h2 class="subtitle" >Primeira feira feita de casa</h2>
+                </div>
+    
+                <div class="box-button-container">
+                    <button class="box-button">Início da feira</button>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

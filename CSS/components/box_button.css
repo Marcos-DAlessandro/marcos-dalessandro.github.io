@@ -1,12 +1,12 @@
-.hero-button-container {
-    width: 627px; 
-    display: flex;
+.box-button-container {
+    display: inline-block;
+    padding: 20px 42px;
     justify-content: center; 
-    margin-top: 40px; 
-    margin-left: 90px;
+    margin-left: 150px;
+   
 }
 
-.hero-button {
+.box-button {
     background-color: #E63946;
     color: white;
     font-size: 18px;
@@ -16,10 +16,11 @@
     cursor: pointer;
     text-align: center;
     box-shadow: 5px 5px 0 #000;
+    text-shadow: 3px 3px 0 #000;
     transition: all 0.2s ease-in-out;
 }
 
-.hero-button:hover {
+.box-button:hover {
     background-color: #B02736;
     box-shadow: 3px 3px 0 #000;
     transform: translate(2px, 2px);

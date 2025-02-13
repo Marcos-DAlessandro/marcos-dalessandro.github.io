@@ -1,4 +1,4 @@
-#button {
+.button {
     display: inline-block;
     background-color: #E63946;
     height: 60px;
@@ -6,10 +6,15 @@
     padding: 0 20px;
     box-shadow: 5px 5px 0 #000;
     margin-right: 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shado;
+    color: #FDFDFD;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Fira Code", sans-serif;
+
 }
 
-#button:hover {
+.button:hover {
     background-color: #B02736;
     transform: scale(1.1);
     box-shadow: 6px 6px 0 #000;

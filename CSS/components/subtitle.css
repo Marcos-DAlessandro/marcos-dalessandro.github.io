@@ -1,7 +1,7 @@
 .subtitle{
     font-size: 20px;
     font-family: "Fira code";
-    font-weight: 400;
+    font-weight: 500;
     color: #FDFDFD;
-    margin-top: 10px;
+    text-shadow: 2px 2px 0 #000;
 }
