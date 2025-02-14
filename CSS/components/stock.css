@@ -14,11 +14,23 @@
     color: #FDFDFD; 
 }
 
-.stock .subtitle {
+.pineapple-progress .subtitle {
     text-align: left; 
     position: absolute; 
     left: 380px; 
-    top: 170px; 
+    top: 180px; 
+    font-size: 25px; 
+    color: #FDFDFD;
+    font-family:"Press Start 2P";
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.berry-progress .subtitle {
+    text-align: left; 
+    position: absolute; 
+    left: 380px; 
+    top: 380px; 
     font-size: 25px; 
     color: #FDFDFD;
     font-family:"Press Start 2P";

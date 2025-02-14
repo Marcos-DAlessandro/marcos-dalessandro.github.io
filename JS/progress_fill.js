@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             progressBar.style.width = `${value}%`;
         }
 
-        updateProgress(30);
+        updateProgress(88);
     } else {
         console.error("Elemento '.progress-fill' não encontrado!");
     }
