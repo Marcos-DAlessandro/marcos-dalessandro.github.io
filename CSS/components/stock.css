@@ -6,9 +6,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 10px solid #122513; 
+    border-bottom: 10px solid #122513;
+    position: relative;
 }
 
 .stock .title {
     color: #FDFDFD; 
+}
+
+.stock .subtitle {
+    text-align: left; 
+    position: absolute; 
+    left: 380px; 
+    top: 170px; 
+    font-size: 25px; 
+    color: #FDFDFD;
+    font-family:"Press Start 2P";
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5); 
 }
