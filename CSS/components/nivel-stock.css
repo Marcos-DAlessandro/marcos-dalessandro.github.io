@@ -1,51 +1,39 @@
 .nivel-stock {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* 🔥 Alinha todos os itens à esquerda */
-    gap: 20px;
+    align-items: flex-start; 
+    gap: 40px;
     width: 100%;
-    margin-left: 50px; /* 🔥 Empurra tudo para a esquerda */
+    margin-left: 50px;
 }
 
-/* 🔥 Estrutura das frutas */
 .fruit-row .fruit-row-pineapple {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* 🔥 Garante que tudo fique alinhado à esquerda */
+    justify-content: flex-start; 
     gap: 10px;
     width: 100%;
     max-width: 600px;
     margin-top: 150px;
-    margin-left:200px; /* 🔥 Remove margem extra */
+    margin-left:200px; 
 }
 
 .fruit-row .fruit-row-berry {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* 🔥 Garante que tudo fique alinhado à esquerda */
+    justify-content: flex-start; 
     gap: 10px;
     width: 100%;
     max-width: 600px;
-    margin-top: 150px;
-    margin-left:200px; /* 🔥 Remove margem extra */
+    margin-top: 30px;
+    margin-left:200px; 
 }
 
-/* 🔥 Ajuste das imagens */
 .fruit-row img {
     width: 80px;
     height: auto;
 }
 
-/* 🔥 Ajuste dos subtítulos */
-.fruit-row .subtitle {
-    font-size: 20px;
-    font-family: "Press Start 2P";
-    color: #FDFDFD;
-    -webkit-text-stroke: 1px #000;
-    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-/* 🔥 Ajuste das barras de progresso */
 .progress-bar {
     width: 320px;
     height: 40px;
@@ -59,10 +47,41 @@
     background-color: #E63946;
 }
 
-/* 🔥 Ajuste do Sol no canto esquerdo */
 .nivel-stock .sun {
     position: absolute;
     left: 20px;
     top: 20px;
-    width: 60px;
+    width: 85px;
 }
+
+.fruit-row-pineapple .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-130%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+}
+
+
+.fruit-row-berry .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-130%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+}
+
