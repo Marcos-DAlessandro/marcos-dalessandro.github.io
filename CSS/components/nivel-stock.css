@@ -8,7 +8,18 @@
 }
 
 /* 🔥 Estrutura das frutas */
-.fruit-row {
+.fruit-row .fruit-row-pineapple {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 🔥 Garante que tudo fique alinhado à esquerda */
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 150px;
+    margin-left:200px; /* 🔥 Remove margem extra */
+}
+
+.fruit-row .fruit-row-berry {
     display: flex;
     align-items: center;
     justify-content: flex-start; /* 🔥 Garante que tudo fique alinhado à esquerda */
