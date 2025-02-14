@@ -1,0 +1,160 @@
+.fruit-row img {
+    width: 80px;
+    height: auto;
+}
+.fruit-row .fruit-row-pineapple {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 150px;
+    
+}
+
+.fruit-row .fruit-row-berry {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+    
+}
+
+.fruit-row .fruit-row-banana {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+    
+}
+
+.fruit-row .fruit-row-wattermelon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+   
+}
+
+.fruit-row .fruit-row-avocado {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 150px;
+    
+}
+
+.fruit-row .fruit-row-coconut {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 35px;
+    
+}
+
+.fruit-row-pineapple .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-130%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+}
+
+
+.fruit-row-berry .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-130%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+}
+
+.fruit-row-banana .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-152%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+}
+
+.fruit-row-wattermelon .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-115%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+}
+
+.fruit-row-avocado .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-130%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+}
+
+.fruit-row-coconut .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-230%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}

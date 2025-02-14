@@ -1,87 +1,30 @@
 .nivel-stock {
     display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px; 
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%;
+}
+
+.right-column {
+    display: flex;
     flex-direction: column;
     align-items: flex-start; 
-    gap: 40px;
-    width: 100%;
-    margin-left: 50px;
-}
-
-.fruit-row .fruit-row-pineapple {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    gap: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin-top: 150px;
-    margin-left:200px; 
-}
-
-.fruit-row .fruit-row-berry {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    gap: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin-top: 30px;
-    margin-left:200px; 
-}
-
-.fruit-row img {
-    width: 80px;
-    height: auto;
-}
-
-.progress-bar {
-    width: 320px;
-    height: 40px;
-    background-color: #fff;
-    border: 5px solid #000;
-    position: relative;
-}
-
-.progress-fill {
-    height: 100%;
-    background-color: #E63946;
+    width: 48%;
 }
 
 .nivel-stock .sun {
     position: absolute;
     left: 20px;
     top: 20px;
-    width: 85px;
+    width: 95px;
 }
-
-.fruit-row-pineapple .progress-bar .subtitle {
-    position: absolute;
-    bottom: 100%; 
-    left: 50%;
-    transform: translateX(-130%); 
-    font-size: 18px;
-    font-family: "Press Start 2P";
-    color: #FDFDFD;
-    -webkit-text-stroke: 1px #000;
-    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    white-space: nowrap;
-    margin-bottom: 10px; 
-}
-
-
-.fruit-row-berry .progress-bar .subtitle {
-    position: absolute;
-    bottom: 100%; 
-    left: 50%;
-    transform: translateX(-130%); 
-    font-size: 18px;
-    font-family: "Press Start 2P";
-    color: #FDFDFD;
-    -webkit-text-stroke: 1px #000;
-    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    white-space: nowrap;
-    margin-bottom: 10px; 
-}
-
