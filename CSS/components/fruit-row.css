@@ -65,7 +65,26 @@
     width: 100%;
     max-width: 600px;
     margin-top: 35px;
-    
+}
+
+.fruit-row .fruit-row-mango {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 45px;
+}
+
+.fruit-row .fruit-row-lemon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 45px;
 }
 
 .fruit-row-pineapple .progress-bar .subtitle {
@@ -149,6 +168,36 @@
     bottom: 100%; 
     left: 50%;
     transform: translateX(-230%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.fruit-row-mango .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-180%); 
+    font-size: 18px;
+    font-family: "Press Start 2P";
+    color: #FDFDFD;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.fruit-row-lemon .progress-bar .subtitle {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-180%); 
     font-size: 18px;
     font-family: "Press Start 2P";
     color: #FDFDFD;
