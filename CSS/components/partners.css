@@ -3,10 +3,10 @@
     width: 100vw; 
     height: 530px;
     padding: 40px 20px;
-    display: flex; /* Alterado de inline-block para flex */
+    display: flex; 
     flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; 
+    align-items: center; 
     border-bottom: 10px solid rgb(39, 8, 8)946;
     text-align: center;
 }

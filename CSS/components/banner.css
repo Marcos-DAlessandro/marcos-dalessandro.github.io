@@ -2,11 +2,11 @@
     display: block;
     background-image: url(../../assets/img/background-photo.png);
     background-repeat: no-repeat;
-    background-size: cover; /* Certifica que a imagem cobre toda a área */
+    background-size: cover; 
     height: 800px;
     border-bottom: 10px solid #000;
-    margin-bottom: 0; /* Remove qualquer margem extra */
-    padding-bottom: 0; /* Garante que não há espaçamento */
+    margin-bottom: 0; 
+    padding-bottom: 0; 
 }
 
 .banner .wrapper{
