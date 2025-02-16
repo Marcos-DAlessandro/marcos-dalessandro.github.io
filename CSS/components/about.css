@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid black; /* Adiciona a borda preta apenas no bottom */
     position: relative;
     text-align: center;
 }
