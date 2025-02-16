@@ -1,0 +1,76 @@
+.about {
+    background-color: #E63946;
+    width: 100vw; 
+    height: 800px;
+    padding: 40px 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    border-bottom: 10px solid #000;
+    text-align: center;
+}
+
+.about .title.-second {
+    color: #FDFDFD;
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.product-way {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px; /* Espaçamento entre os itens */
+    margin-bottom: 50px;
+}
+
+.way-line {
+    position: absolute;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    top: 20px; /* Posição da linha */
+}
+
+.way-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.way-title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.colheu {
+    color: #6AAA64;
+}
+
+.ajeitou {
+    color: #0077B6;
+}
+
+.chegou {
+    color: #14A44D;
+}
+
+.way-dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.way-step img {
+    width: 120px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border: 3px solid black;
+}

@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid rgb(39, 8, 8)946;
     text-align: center;
 }
 
