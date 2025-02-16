@@ -3,10 +3,12 @@
     width: 100vw; 
     height: 530px;
     padding: 40px 20px;
-    display: inline-block;
+    display: flex; /* Alterado de inline-block para flex */
     flex-direction: column;
-    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
     border-bottom: 10px solid #000;
+    text-align: center;
 }
 
 .partners .title.-second {
