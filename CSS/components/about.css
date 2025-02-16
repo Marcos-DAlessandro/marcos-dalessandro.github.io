@@ -1,76 +1,72 @@
 .about {
     background-color: #E63946;
-    width: 100vw; 
     height: 800px;
-    padding: 40px 20px;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    border-bottom: 10px solid #000;
-    text-align: center;
-}
-
-.about .title.-second {
-    color: #FDFDFD;
-    text-shadow: none;
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.product-way {
-    position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px; /* Espaçamento entre os itens */
-    margin-bottom: 50px;
+    padding: 20px;
+    border-bottom: 10px solid #fff;
+    position: relative;
+    text-align: center;
 }
 
-.way-line {
-    position: absolute;
-    width: 90%;
-    height: 3px;
-    background-color: black;
-    top: 20px; /* Posição da linha */
+.about .title {
+    margin-bottom: 40px; 
+    color: #fff;
 }
 
-.way-step {
+
+/* Container das imagens e títulos */
+.carousel-static {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* Ajusta a distância entre os itens */
+    margin-bottom: 20px;
+}
+
+/* Ajuste para conectar os títulos e os pontinhos às imagens com 50px de distância */
+.item {
+    text-align: center;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    gap: 0; /* Remove espaçamento extra */
 }
 
-.way-title {
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 18px;
+/* Estilizando os títulos */
+.item h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Press Start 2P";
     font-weight: bold;
-    margin-bottom: 10px;
+    -webkit-text-stroke: 0.5px #000;
+    text-shadow: 3px 3px 0 #000, 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 2px; 
+    margin-top: 150px;
 }
 
-.colheu {
-    color: #6AAA64;
+/* Linha pontilhada conectando o título à imagem */
+.dot-line {
+    width: 2px;
+    height: 30px; /* Define a distância exata entre o título e a imagem */
+    background: repeating-linear-gradient(
+        to bottom,
+        black 0px,
+        black 2px,
+        transparent 2px,
+        transparent 4px
+    );
+    margin-bottom: 2px; /* Mantém um pequeno espaçamento antes da imagem */
 }
 
-.ajeitou {
-    color: #0077B6;
-}
-
-.chegou {
-    color: #14A44D;
-}
-
-.way-dot {
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.way-step img {
-    width: 120px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
+/* Definir tamanho fixo para todas as imagens */
+.item img {
+    width: 200px; /* Define a mesma largura para todas */
+    height: 130px; /* Define a mesma altura para todas */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
     border: 3px solid black;
+    margin-bottom: 50px;
 }
